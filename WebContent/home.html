@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+</head>
+<body>
+
+    <div class="navbar">
+     <h1 class="logo-text"> <span  style="color: antiquewhite">Monthly </span><span style="color: aquamarine;">Budget</span></h1>
+      <ul class="navbar-list">
+                
+               
+                <li><a class="new-expense" href="#">New Expense</a></li>
+                <li style="display: flex; align-items: center;"><span class="material-symbols-outlined">
+                    account_circle
+                    </span><p> Welcome Deva</p></li>
+                <li><a href="#">Logout</a></li>
+    </ul>
+        
+    </div>
+
+    <div class="body-container">
+        <div class="left-container">
+            <div class="left-container-header">
+                <h3 style="color:aquamarine ;">Description</h3>
+    
+             </div>
+             <div class="left-container-body">
+                <h2 style="color: antiquewhite;" class="left-container-body-head">look like you haven't added any Expenses yet</h2>
+                <p>No worries Hit the Add  bitton to get started</p>
+                <h1 style="font-size: 90px;" class="material-symbols-outlined">
+                    shopping_cart
+                    </h1>
+             </div>
+        </div>
+        <div class="right-container">
+            <div class="right-container-header">
+                <div class="list-card">
+                    <div style="height: 350px;" class="form-Container">
+                        <div class="form-group">
+                            
+                            <select  name="cars" id="cars">
+                                <option value="volvo">Category :</option>
+                                <option value="volvo">Food</option>
+                                <option value="saab">Travel</option>
+                                <option value="mercedes">Shopping</option>
+                                <option value="audi">Loan</option>
+                              </select>
+
+
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="desc" placeholder="Description">
+                            <hr>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="amnt" placeholder="Amount">
+                            <hr>
+                        </div>
+
+                        <a class="new-expense" href="#">Add</a>
+
+                    </div>
+                </div>
+    
+             </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
